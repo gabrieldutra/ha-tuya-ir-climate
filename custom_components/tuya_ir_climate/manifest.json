@@ -1,0 +1,17 @@
+{
+  "domain": "tuya_ir_climate",
+  "name": "Tuya IR Climate",
+  "codeowners": [
+    "@gabrieldutra"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "tuya"
+  ],
+  "documentation": "https://github.com/gabrieldutra/ha-tuya-ir-climate",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/gabrieldutra/ha-tuya-ir-climate/issues",
+  "single_config_entry": true,
+  "version": "0.2.0"
+}

@@ -1,0 +1,17 @@
+send_commands:
+  name: Send commands
+  description: >-
+    Send raw Tuya commands to an IR air conditioner, for finding out what a
+    unit understands. The entity's state is not changed.
+  target:
+    entity:
+      integration: tuya_ir_climate
+      domain: climate
+  fields:
+    commands:
+      name: Commands
+      description: List of commands, each with a code and a value.
+      required: true
+      example: '[{"code": "T", "value": 23}]'
+      selector:
+        object:
